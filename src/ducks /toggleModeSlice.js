@@ -7,7 +7,7 @@ const mode1 = {
     color3: '#4F5165',
     color4: '#547AA5',
     color5: '#50D8D7',
-    photo: 'https://www.placecage.com/200/300'
+    photo: 'https://via.placeholder.com/200x300'
 }
 
 const mode2 = {
@@ -38,4 +38,3 @@ export const toggleModeSlice = createSlice({
 export const { lightMode, darkMode } = toggleModeSlice.actions
 
 export default toggleModeSlice.reducer
-
